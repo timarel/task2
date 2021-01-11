@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    margin: 100px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#square {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(124, 50, 1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+#square:hover {
+    box-shadow: 0px 0px 20px 1px rgba(97, 19, 0, 0.438);
+}
+#square:active {
+    box-shadow: 0px 0px 50px 10px rgba(97, 19, 0, 0.438);
+    width: 295px;
+    height: 295px;
+}
+span {
+    font-size: 50px;
+    color:rgb(255, 76, 5);
+}
+
